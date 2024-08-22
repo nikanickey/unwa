@@ -1,0 +1,13 @@
+img{
+    transform: scale(0.75);
+}
+
+body{
+    background-color: yellow;
+}
+
+#contt{
+    display:flex;
+    flex-direction: column;
+    gap: 0px;
+}

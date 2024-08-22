@@ -1,0 +1,45 @@
+body{
+    background-color: yellow;
+}
+
+
+#rock ,#paper ,#scissors {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#memes{
+    transform: scale(2);
+    background-color: azure;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornflowerblue;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+#demo1,#demo2{
+    color:rgb(14, 184, 184);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+img{
+    border-radius: 30px;
+}
